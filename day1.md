@@ -12,20 +12,34 @@ Push file to repo:
 
     Adds the file to your local repository and stages it for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
 
+<<<<<<< HEAD
+
 # $ git commit -m "Add existing file"
 
 Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
 
 # $ git push origin your-branch (Eg: master)
 
+# Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+#$ git commit -m "Add existing file"
+Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+#$ git push origin local our-branch (Eg: master)
 Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+> > > > > > > f60a96cab52d378a03767b025ad565d8892d24f0
 
 Pull from a Github repository:
 #$ git pull remotename branchname
 Grabs online updates and merges them with your local work
+
+<<<<<<< HEAD
 
 # - git pull origin master
 
 git remote -v
 //origin https://github.com/katytran/cs_ftw_notes.gi(fetch)
 // origin https://github.com/katytran/cs_ftw_notes.git (push)
+=======
+
+> > > > > > > f60a96cab52d378a03767b025ad565d8892d24f0
